@@ -28,3 +28,19 @@ This package leverages the `Schema` facade to override the default blueprint res
 // 'Schema' => Illuminate\Support\Facades\Schema::class,
 'Schema' => Reedware\LaravelBlueprints\Schema::class,
 ```
+#### Step 4: Change your Migrations before running
+
+Since Laravel 5.3, the absolute path to Laravel's `Schema` facade was included in all of the migrations that were automatically generated. This bypasses the facade configuration that you did in Step 3. You can either uncomment this line (which will then defer to the correct facade), or you change the namespace to match the one from this package.
+
+```php
+// use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+```
+
+or 
+
+```php
+use Reedware\LaravelBlueprints\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
