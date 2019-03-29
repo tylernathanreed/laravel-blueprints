@@ -26,6 +26,13 @@
             "Reedware\\LaravelBlueprints\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Reedware\\LaravelBlueprints\\BlueprintsServiceProvider"
+            ]
+        }
+    },
     "autoload-dev": {},
     "suggest": {},
     "conflict": {},
