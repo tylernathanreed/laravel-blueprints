@@ -66,12 +66,12 @@ class Columns extends Collection
 
     	// Check for Blueprint Caller
     	if($caller['object'] instanceof Blueprint) {
-    		return $caller['object'];
+            return $caller['object'];
     	}
 
     	// Check for Columns Caller
     	if($caller['object'] instanceof static) {
-    		return $caller['object']->getBlueprint();
+            return $caller['object']->getBlueprint();
     	}
 
     	// Unknown Caller
@@ -103,12 +103,12 @@ class Columns extends Collection
     {
     	// Check for Macro
         if(static::hasMacro($method)) {
-        	return parent::__call($method, $parameters);
+            return parent::__call($method, $parameters);
         }
 
         // Call the Method on the Columns
         $this->each(function($column) use ($method, $parameters) {
-        	$column->{$method}(...$parameters);
+            $column->{$method}(...$parameters);
         });
 
         // Allow Chaining
