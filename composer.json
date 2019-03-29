@@ -26,18 +26,16 @@
             "Reedware\\LaravelBlueprints\\": "src/"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Reedware\\LaravelBlueprints\\BlueprintsServiceProvider"
-            ]
-        }
-    },
     "autoload-dev": {},
     "suggest": {},
     "conflict": {},
     "config": {},
     "extra": {
+        "laravel": {
+            "providers": [
+                "Reedware\\LaravelBlueprints\\BlueprintsServiceProvider"
+            ]
+        },
         "branch-alias": {
             "dev-master": "1.0-dev"
         }
