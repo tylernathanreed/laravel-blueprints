@@ -16,3 +16,6 @@ This package uses auto-discovery, so it doesn't require you to manually add the 
 ```php
 \Reedware\LaravelBlueprints\BlueprintsServiceProvider::class
 ```
+#### Step 2: Publish Configuration
+
+This package comes with a configuration file. You can either publish the configuration file (using `php artisan vendor:publish`), or by copying the configuration file from the source code directly (see `~/config/blueprints.php`).
