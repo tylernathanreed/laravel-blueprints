@@ -6,12 +6,12 @@ use Illuminate\Support\Collection;
 
 class Columns extends Collection
 {
-	/**
-	 * The Table Blueprint.
-	 *
-	 * @var \Reed\Blueprints\Blueprint
-	 */
-	protected $blueprint;
+    /**
+     * The Table Blueprint.
+     *
+     * @var \Reed\Blueprints\Blueprint
+     */
+    protected $blueprint;
 
     /**
      * Create a new collection of Columns.
