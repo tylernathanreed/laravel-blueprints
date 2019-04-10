@@ -1,6 +1,12 @@
 ## Laravel Blueprints
 Adds useful methods to the blueprint schema builder.
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Laravel-5.1%2B-blue.svg" alt="Laravel Version"></img>
+  <a href="https://scrutinizer-ci.com/g/tylernathanreed/laravel-blueprints/code-structure"><img src="https://img.shields.io/scrutinizer/g/tylernathanreed/laravel-blueprints.svg?label=Code%20Quality" alt="Code Quality"></img></a>
+  <img src="https://img.shields.io/packagist/dt/reedware/laravel-blueprints.svg?label=Downloads" alt="Total Downloads"></img>
+</p>
+
 ### Installation
 
 #### Step 1: Require this Package
