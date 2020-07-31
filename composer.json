@@ -13,8 +13,8 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "illuminate/database": "^5.1|^6.0",
-        "illuminate/support": "^5.1|^6.0"
+        "illuminate/database": "^5.1|^6.0|^7.0",
+        "illuminate/support": "^5.1|^6.0|^7.0"
     },
     "require-dev": {
         "ext-fileinfo": "*",
